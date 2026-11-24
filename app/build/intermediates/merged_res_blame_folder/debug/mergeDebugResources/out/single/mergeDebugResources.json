@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-debug-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-debug-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-debug-4:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-main-6:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-debug-4:\\drawable_ic_stat_gestures.xml.flat",
+        "source": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-main-6:\\drawable\\ic_stat_gestures.xml"
+    },
+    {
+        "merged": "com.pockethub.launcher.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.pockethub.launcher.app-main-6:/drawable/ic_launcher_foreground.xml"
+    }
+]

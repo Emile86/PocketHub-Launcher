@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.pockethub.launcher.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Emile\\Documents\\PocketHubLauncher\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "-1,15",
+                        "startColumns": "-1,4",
+                        "startOffsets": "-1,869",
+                        "endLines": "-1,23",
+                        "endColumns": "-1,12",
+                        "endOffsets": "-1,1442"
+                    },
+                    "to": {
+                        "startLines": "3,16",
+                        "startColumns": "4,4",
+                        "startOffsets": "109,961",
+                        "endLines": "15,24",
+                        "endColumns": "12,12",
+                        "endOffsets": "956,1534"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emile\\Documents\\PocketHubLauncher\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Emile\\.gradle\\daemon\\9.6.0\\com.pockethub.launcher.app-debug-4:\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Emile\\Documents\\PocketHubLauncher\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "863"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "109",
+                        "endLines": "15",
+                        "endColumns": "12",
+                        "endOffsets": "956"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emile\\Documents\\PocketHubLauncher\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    }
+                }
+            ]
+        }
+    ]
+}

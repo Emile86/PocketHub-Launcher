@@ -1,0 +1,212 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pockethub.launcher"
+4    android:versionCode="26"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+11-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:3:5-77
+11-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:3:22-74
+12    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+12-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:4:5-82
+12-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:4:22-79
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:5:5-78
+13-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:5:22-75
+14    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+14-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:6:5-72
+14-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:6:22-69
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:7:5-77
+15-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:7:22-74
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:8:5-77
+16-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:8:22-74
+17
+18    <queries>
+18-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:9:5-16:15
+19        <package android:name="com.ayaneo.home" />
+19-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:10:9-51
+19-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:10:18-48
+20        <package android:name="com.topjohnwu.magisk" />
+20-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:11:9-56
+20-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:11:18-53
+21
+22        <intent>
+22-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:12:9-15:18
+23            <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:13-65
+23-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:21-62
+24
+25            <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:14:13-73
+25-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:14:23-70
+26        </intent>
+27    </queries>
+28
+29    <application
+29-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:17:5-97:19
+30        android:allowBackup="false"
+30-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:18:9-36
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="PocketHub Launcher"
+34-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:20:9-43
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:22:9-35
+37        android:theme="@style/LauncherTheme" >
+37-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:23:9-45
+38
+39        <!-- Home screen (top display 0). -->
+40        <activity
+40-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:26:9-49:20
+41            android:name="com.pockethub.launcher.HomeActivity"
+41-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:27:13-41
+42            android:clearTaskOnLaunch="true"
+42-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:28:13-45
+43            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout|smallestScreenSize|uiMode|density"
+43-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:29:13-141
+44            android:excludeFromRecents="true"
+44-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:30:13-46
+45            android:exported="true"
+45-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:31:13-36
+46            android:launchMode="singleTask"
+46-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:32:13-44
+47            android:resizeableActivity="true"
+47-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:33:13-46
+48            android:resumeWhilePausing="true"
+48-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:34:13-46
+49            android:screenOrientation="unspecified"
+49-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:35:13-52
+50            android:stateNotNeeded="true"
+50-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:36:13-42
+51            android:taskAffinity=""
+51-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:37:13-36
+52            android:windowSoftInputMode="adjustNothing|stateHidden" >
+52-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:38:13-68
+53            <intent-filter>
+53-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:39:13-43:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:13-65
+54-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:21-62
+55
+56                <category android:name="android.intent.category.HOME" />
+56-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:41:17-73
+56-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:41:27-70
+57                <category android:name="android.intent.category.DEFAULT" />
+57-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:42:17-76
+57-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:42:27-73
+58            </intent-filter>
+59            <!-- The app icon opens the home screen (also the launch target for Run in Android Studio). -->
+60            <intent-filter>
+60-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:45:13-48:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:13-65
+61-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:21-62
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:14:13-73
+63-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:14:23-70
+64            </intent-filter>
+65        </activity>
+66
+67        <!--
+68             Home screen for secondary displays (bottom screen, display 2).
+69             The system takes SECONDARY_HOME from the default launcher's package.
+70        -->
+71        <activity
+71-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:53:9-70:20
+72            android:name="com.pockethub.launcher.SecondaryHomeActivity"
+72-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:54:13-50
+73            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout|smallestScreenSize|uiMode|density"
+73-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:55:13-141
+74            android:excludeFromRecents="true"
+74-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:56:13-46
+75            android:exported="true"
+75-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:57:13-36
+76            android:launchMode="singleTop"
+76-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:58:13-43
+77            android:resizeableActivity="true"
+77-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:59:13-46
+78            android:resumeWhilePausing="true"
+78-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:60:13-46
+79            android:screenOrientation="unspecified"
+79-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:61:13-52
+80            android:stateNotNeeded="true"
+80-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:62:13-42
+81            android:taskAffinity=""
+81-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:63:13-36
+82            android:windowSoftInputMode="adjustNothing|stateHidden" >
+82-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:64:13-68
+83            <intent-filter>
+83-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:65:13-69:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:13-65
+84-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:13:21-62
+85
+86                <category android:name="android.intent.category.SECONDARY_HOME" />
+86-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:67:17-83
+86-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:67:27-80
+87                <category android:name="android.intent.category.DEFAULT" />
+87-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:42:17-76
+87-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:42:27-73
+88            </intent-filter>
+89        </activity>
+90        <!-- Launcher settings (desktop menu → Settings, or the gestures notification). -->
+91        <activity
+91-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:72:9-79:52
+92            android:name="com.pockethub.launcher.SettingsActivity"
+92-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:73:13-45
+93            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+93-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:74:13-115
+94            android:exported="true"
+94-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:75:13-36
+95            android:label="PocketHub Launcher"
+95-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:76:13-47
+96            android:resizeableActivity="true"
+96-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:77:13-46
+97            android:taskAffinity="com.pockethub.launcher.settings"
+97-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:78:13-67
+98            android:theme="@style/SettingsTheme" />
+98-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:79:13-49
+99
+100        <!-- First-run setup assistant. -->
+101        <activity
+101-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:82:9-90:52
+102            android:name="com.pockethub.launcher.SetupActivity"
+102-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:83:13-42
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+103-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:85:13-115
+104            android:exported="false"
+104-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:86:13-37
+105            android:label="PocketHub Launcher"
+105-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:87:13-47
+106            android:launchMode="singleTask"
+106-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:84:13-44
+107            android:resizeableActivity="true"
+107-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:88:13-46
+108            android:taskAffinity="com.pockethub.launcher.setup"
+108-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:89:13-64
+109            android:theme="@style/SettingsTheme" />
+109-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:90:13-49
+110
+111        <!-- Bottom screen gestures (overlay windows on display 2). -->
+112        <service
+112-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:93:9-96:44
+113            android:name="com.pockethub.launcher.EdgeGestureService"
+113-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:94:13-47
+114            android:exported="false"
+114-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:95:13-37
+115            android:stopWithTask="false" />
+115-->C:\Users\Emile\Documents\PocketHubLauncher\app\src\main\AndroidManifest.xml:96:13-41
+116    </application>
+117
+118</manifest>

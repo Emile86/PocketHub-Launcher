@@ -1,0 +1,8 @@
+com.pockethub.launcher:mipmap/ic_launcher = 0x7f030000
+com.pockethub.launcher:drawable/$ic_launcher_foreground__0 = 0x7f020000
+com.pockethub.launcher:drawable/ic_stat_gestures = 0x7f020002
+com.pockethub.launcher:style/SettingsTheme = 0x7f040001
+com.pockethub.launcher:style/LauncherTheme = 0x7f040000
+com.pockethub.launcher:mipmap/ic_launcher_round = 0x7f030001
+com.pockethub.launcher:drawable/ic_launcher_foreground = 0x7f020001
+com.pockethub.launcher:color/launcher_background = 0x7f010000
